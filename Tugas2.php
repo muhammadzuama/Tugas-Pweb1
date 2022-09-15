@@ -27,11 +27,11 @@
     {
         if ($i%3==0){
             echo "<tr><td align='center' style='background-color:black ;'> <li style='list-style-type: none;color:white;'>$i.</td>";
-            echo "<td style='background-color:black ;'><li style='list-style-type: none; color:white;'>ini perulangan ke-$i</td></tr>";
+            echo "<td style='background-color:black ;'><li style='list-style-type: none; color:white;'>ini baris ke-$i</td></tr>";
         }
         else{
             echo "<tr><td width='100px'; align='center'>$i.</td>";
-            echo "<td width='900px'><li style ='list-style-type: none'; >ini perulangan ke-$i</td></tr>";
+            echo "<td width='900px'><li style ='list-style-type: none'; >ini baris ke-$i</td></tr>";
         }
     }
     ?>
